@@ -2,9 +2,9 @@ from . import __version__ as app_version
 
 app_name = "gym_management"
 app_title = "Gym Management"
-app_publisher = "Ahmad Akhtar"
-app_description = "An App for Gym Management for FDC"
-app_email = "ahmadsyakirakhtar@gmail.com"
+app_publisher = "Mr Azam"
+app_description = "Gym Management System"
+app_email = "norazam@loranet.my"
 app_license = "MIT"
 
 # Includes in <head>
@@ -199,3 +199,13 @@ app_license = "MIT"
 # auth_hooks = [
 #	"gym_management.auth.validate"
 # ]
+
+
+fixtures = [
+    "Custom Field",
+    "Gym Fitness Profile"
+]
+website_route_rules = [
+     {"from_route": "/404", "to_route": "/not_found"},
+    
+ ]
